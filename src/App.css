@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+* {
+  font-family: HelveticaNeue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#kayakLogo {
+  margin: 19px;
+  margin-left: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homepage {
+  background-color: #f9fafb;
+  padding-left: 94px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #ffffff;
+}
+
+.flex-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin-bottom: 73px;
+  padding-top: 67px;
+  font-size: 44px;
+  font-weight: 900;
+  color: #000000;
+}
+
+.filterByAlliances {
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+}
+
+.alliance {
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+  margin-right: 24px;
+}
+
+.allianceCheckbox {
+  margin-top: 23px;
+  margin-bottom: 56px;
+  display: flex;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+label {
+  display: flex;
   align-items: center;
+}
+
+.airlineCard {
+  height: 240px;
+  width: 300px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+}
+
+.airlineCard:hover {
+  border: solid 1px #363f45;
+}
+
+.hidden {
+  display: none;
+}
+
+.airlineCard:hover .hidden {
+  display: block;
+  text-align: left;
+  margin-left: 50px;
+  max-width: 150px;
+}
+
+.cardBody {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  flex-direction: column;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mainCardInfo {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.airlineCardLogo {
+  height: 32px;
+  width: 32px;
+}
+
+.airlineCardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+  margin-left: 18px;
+}
+
+.airlineCardText {
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+}
+
+.airlineCardSite {
+  font-size: 14px;
+  font-weight: normal;
+  color: #5a6872;
 }
