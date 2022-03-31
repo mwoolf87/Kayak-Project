@@ -2,18 +2,19 @@
   font-family: HelveticaNeue;
 }
 
-#kayakLogo {
-  margin: 19px;
+#logo {
   margin-left: 16px;
+  height: 150px;
+  margin-top: -40px;
 }
 
 .homepage {
-  background-color: #f9fafb;
+  background-color: #f7f7f7;
   padding-left: 94px;
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 
 .flex-container {
@@ -23,7 +24,6 @@
 
 .title {
   margin-bottom: 73px;
-  padding-top: 67px;
   font-size: 44px;
   font-weight: 900;
   color: #000000;
@@ -63,8 +63,9 @@ label {
   width: 300px;
   margin: 16px;
   border-radius: 8px;
-  box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
-    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+  box-shadow: 0 -1px 4px 0 rgba(10, 12, 12, 0.04),
+    0 3px 6px 0 rgba(10, 12, 12, 0.16);
+  background-color: #fff;
 }
 
 .airlineCard:hover {
