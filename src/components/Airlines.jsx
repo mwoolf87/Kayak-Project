@@ -8,7 +8,7 @@ const Airlines = () => {
 
   useEffect(() => {
     fetchJsonp(
-      "http://kayak.com/h/mobileapis/directory/airlines/homework?callback=jsonp",
+      "https://kayak.com/h/mobileapis/directory/airlines/homework?callback=jsonp",
       {
         jsonpCallback: "jsonp"
       }
